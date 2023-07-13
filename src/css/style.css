@@ -1,3 +1,12 @@
+main {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
 .ladoEsquerdo, img {
 
     width: 50%;
@@ -5,19 +14,52 @@
 
 }
 
-.div1 {
+.ladoDireito {
 
-    width: 350px;
-    height: 402px;
-    border: solid 2px;
+    width: 21.875rem;
+    height: 25.125rem;
+    border: solid .125rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
+    text-align: center;
+    align-items: center;
+    
+
+
+}
+
+.div1 {
+    border: solid .125rem;
+    width: 275px;
+    height: 340px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.instagram {
+    margin: 20px auto 0 auto;
+    margin-top: 20px;
+    width: 180px;
 }
 
 form {
 
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 180px;
     
+}
+
+.forms {
+    height: 20px;
     
+}
+input {
+    
+    font-size: 20px;
 }
