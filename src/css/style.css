@@ -1,0 +1,23 @@
+.ladoEsquerdo, img {
+
+    width: 50%;
+
+
+}
+
+.div1 {
+
+    width: 350px;
+    height: 402px;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+form {
+
+    
+    
+}
